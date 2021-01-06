@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+p {
+  color: #3e3e3e;
+  font-family: "Roboto", sans-serif;
+  line-height: 30px;
+}
+h1 {
+  font-family: "Bebas Neue", cursive;
+  color: #363958;
+  font-size: 80px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: "Bebas Neue", cursive;
+  color: #363958;
+  font-size: 64px;
+  text-transform: uppercase;
+}
+h3 {
+  font-family: "Bebas Neue", cursive;
+  color: #363958;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+h4 {
+  font-family: "Roboto", sans-serif;
+  color: #363958;
+  font-size: 36px;
+  text-transform: lowercase;
+}
+h5 {
+  font-family: "Roboto", sans-serif;
+  color: #363958;
+  font-size: 24px;
+}
+h6 {
+  font-family: "Bebas Neue", cursive;
+  color: #696871;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+section {
+  height: 400px;
+  padding-bottom: 150px;
+}
+footer p {
+  text-align: center;
+  font-size: 12px;
+}
+.button {
+  background-color: #fa7261;
+  padding: 15px 40px;
+  border-radius: 5px;
+  color: white;
+}
+.text-highlight {
+  color: #ff8367;
+}
+/* === Start Header area === */
+.main {
+  background-color: #f8f9fc;
+}
+.nav {
+  padding: 30px;
+}
+.nav ul {
+  list-style: none;
+  float: right;
+  display: flex;
+}
+.nav ul li {
+  padding: 15px;
+}
+.nav ul li a {
+  font-size: 18px;
+  font-weight: 700;
+  color: #3c3c3c;
+}
+/* === End Header area === */
+/* === Start Hero Area === */
+.hero-area {
+  margin-top: 5%;
+}
+.hero-area-2 {
+  margin-top: 5%;
+}
+.container {
+  width: 40%;
+  float: left;
+  margin-left: 7%;
+  margin-right: 2%;
+}
+.container img {
+  width: 80%;
+  margin-top: 0;
+}
+.container h1 {
+  padding-top: 20%;
+}
+/* === End Hero Area === */
+/* === Start Project Section === */
+.project {
+  background-color: #f8f9fc;
+  height: 600px;
+}
+.project p {
+  color: #6c6c6c;
+}
+.project h3 {
+  font-size: 48px;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.box-shadow {
+  box-shadow: 5px 5px 20px #eaebee;
+  border-radius: 20px;
+  background-color: white;
+}
+.blog {
+  margin-top: 5%;
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+}
+#blog-post-1 {
+  float: left;
+  text-align: center;
+  padding: 15px;
+  margin-left: 2%;
+}
+#blog-post-2 {
+  float: left;
+  text-align: center;
+  margin-left: 2%;
+  padding: 15px;
+}
+#blog-post-3 {
+  float: left;
+  text-align: center;
+  margin-left: 2%;
+  padding: 15px;
+}
+.blog-img {
+  width: 100%;
+}
+/* === End Project Section === */
+/* === Start Group Section === */
+.group {
+  background-image: url(./images/Group.png);
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  position: relative;
+}
+.group h2 {
+  margin-left: 25%;
+  padding-top: 12%;
+  font-size: 48px;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+  display: inline-block;
+}
+.group a {
+  float: right;
+  margin-right: 25%;
+  margin-top: 12%;
+}
+.connected {
+  text-align: center;
+  margin-top: 5%;
+}
+.connected img {
+  height: 30px;
+  padding: 10px;
+}
+/* === End Group Section === */
+.contact-form {
+  background-color: #f8f9fc;
+  padding: 30px;
+}
+.contact-form h3 {
+  text-align: center;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+form {
+  width: 50%;
+  margin: auto;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px #eaebee;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
